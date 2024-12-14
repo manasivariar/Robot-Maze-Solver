@@ -29,15 +29,12 @@ def send_tcp_packet(server_ip, server_port, message):
 def read_csv_file():
     SERVER_IP = "192.168.1.159"
     SERVER_PORT = 5001
-    with open('angles.txt', mode='r') as file:
+    with open('Robot/joints.txt', mode='r') as file:
         csv_reader = csv.reader(file)
         for row in csv_reader:
             print(row)
-            # MESSAGE = f"""
-            #     set_angles({','.join(row)})
-            #     wait_command_done()
-            # """
-            # send_tcp_packet(SERVER_IP, SERVER_PORT, MESSAGE)
+            MESSAGE = f"set_angles({','.join(row)}, 1000)"
+            send_tcp_packet(SERVER_IP, SERVER_PORT, MESSAGE)
 
 if __name__ == "__main__":
     read_csv_file()
