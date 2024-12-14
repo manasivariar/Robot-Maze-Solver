@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/09/24||23:01:49" using="Simscape Multibody Link Version 7.4" from="SolidWorks 32.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="myCobot_Pro_600_Final" uid="myCobot_Pro_600_Final" version="142">
+<AssemblyFile name="myCobot_Pro_600_Final.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="myCobot_Pro_600_230708.STEP-1" uid="myCobot_Pro_600_230708.STEP-1" grounded="true" entityUid="myCobot_Pro_600_230708.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="J6____-W.STEP-1" uid="J6____-W.STEP-1" grounded="true" entityUid="J6____-W.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -1.0221095329999997e-06 0.99999999999947764 0 -0.99999999999947764 -1.0221095329999997e-06 0</Rotation>
+<Translation>-3.2545988999999999e-08 0.80483418644499505 -0.109500788275866</Translation>
+</Transform>
+</Instance>
+<Instance name="J3____-W.STEP-1" uid="J3____-W.STEP-1" grounded="true" entityUid="J3____-W.STEP*:*Default">
+<Transform>
+<Rotation>-1.9999999999999994e-15 0 -1 1.0221095339999996e-06 0.99999999999947764 0 0.99999999999947764 -1.0221095339999996e-06 -1.9999999999989545e-15</Rotation>
+<Translation>0 0.105380795682122 -0.040490073357843999</Translation>
+</Transform>
+</Instance>
+<Instance name="J1____-W.STEP-1" uid="J1____-W.STEP-1" grounded="true" entityUid="J1____-W.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="J2____-W.STEP-1" uid="J2____-W.STEP-1" grounded="true" entityUid="J2____-W.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-1.4e-14 0.147965087636591 -0.15244542431448899</Translation>
+</Transform>
+</Instance>
+<Instance name="J4____-W.STEP-1" uid="J4____-W.STEP-1" grounded="true" entityUid="J4____-W.STEP*:*Default">
+<Transform>
+<Rotation>1.9999999999999994e-15 0 1 -1.0221095329999997e-06 0.99999999999947764 0 -0.99999999999947764 -1.0221095329999997e-06 1.9999999999989545e-15</Rotation>
+<Translation>0 0.35688057993245398 -0.088560330418194999</Translation>
+</Transform>
+</Instance>
+<Instance name="J5____-W.STEP-1" uid="J5____-W.STEP-1" grounded="true" entityUid="J5____-W.STEP*:*Default">
+<Transform>
+<Rotation>1 0 -1.9999999999989553e-15 0 0.99999999999947764 1.0221095329999997e-06 2.0000000000000002e-15 -1.0221095329999997e-06 0.99999999999947764</Rotation>
+<Translation>1.1999999999999999e-14 -0.00150513404048 -0.056499964108723003</Translation>
+</Transform>
+</Instance>
+<Instance name="70_____________________PRO-600-W.STEP-1" uid="70_____________________PRO-600-W.STEP-1" grounded="true" entityUid="70_____________________PRO-600-W.STEP*:*Default">
+<Transform>
+<Rotation>1 -2.0000020442180051e-15 1.9999979557799055e-15 2.0000000000000002e-15 1.0221095249999996e-06 -0.99999999999947764 2.0000000000000002e-15 0.99999999999947764 1.0221095249999996e-06</Rotation>
+<Translation>-2.9698499999999998e-10 0.19783420708309099 -0.089300167855312002</Translation>
+</Transform>
+</Instance>
+<Instance name="70_____________________PRO-600-W.STEP-3" uid="70_____________________PRO-600-W.STEP-3" grounded="true" entityUid="70_____________________PRO-600-W.STEP*:*Default">
+<Transform>
+<Rotation>0.92225783542583417 2.6237288471281337e-15 0.38657532900542813 -6.0000000000000013e-15 1 7.5271698608216495e-15 -0.38657532900542813 -9.2614433567565213e-15 0.92225783542583417</Rotation>
+<Translation>-1.1999999999999999e-14 0.14983408763653999 5.0999999999999997e-14</Translation>
+</Transform>
+</Instance>
+<Instance name="64_____________________PRO-600-W.STEP-2" uid="64_____________________PRO-600-W.STEP-2" grounded="true" entityUid="64_____________________PRO-600-W.STEP*:*Default">
+<Transform>
+<Rotation>0.99817258540597975 0 -0.06042755781878055 -6.1763582999999993e-08 -0.99999999999947764 -1.0202417151227082e-06 -0.060427557818748985 1.0221095330058923e-06 -0.99817258540545839</Rotation>
+<Translation>-1.2600000000000001e-12 0.75933418644501904 -0.10950074176987901</Translation>
+</Transform>
+</Instance>
+<Instance name="70_____________________PRO-600-W.STEP-2" uid="70_____________________PRO-600-W.STEP-2" grounded="true" entityUid="70_____________________PRO-600-W.STEP*:*Default">
+<Transform>
+<Rotation>1 -2.0000020442180051e-15 1.9999979557799055e-15 2.0000000000000002e-15 1.0221095249999996e-06 -0.99999999999947764 2.0000000000000002e-15 0.99999999999947764 1.0221095249999996e-06</Rotation>
+<Translation>-4.3e-14 0.44783420709182398 -0.089300423382611002</Translation>
+</Transform>
+</Instance>
+<Instance name="64_____________________PRO-600-W.STEP-1" uid="64_____________________PRO-600-W.STEP-1" grounded="true" entityUid="64_____________________PRO-600-W.STEP*:*Default">
+<Transform>
+<Rotation>1 -2.0000020442180213e-15 1.9999979557798893e-15 2.0000000000000002e-15 1.0221095329999997e-06 -0.99999999999947764 2.0000000000000002e-15 0.99999999999947764 1.0221095329999997e-06</Rotation>
+<Translation>1.1e-14 0.69783423295102998 -0.064000678910160994</Translation>
+</Transform>
+</Instance>
+<Instance name="64_____________________PRO-600-W.STEP-3" uid="64_____________________PRO-600-W.STEP-3" grounded="true" entityUid="64_____________________PRO-600-W.STEP*:*Default">
+<Transform>
+<Rotation>1 -2.0000020442180213e-15 1.9999979557798893e-15 2.0000000000000002e-15 1.0221095329999997e-06 -0.99999999999947764 2.0000000000000002e-15 0.99999999999947764 1.0221095329999997e-06</Rotation>
+<Translation>-3.2544636000000001e-08 0.80483412409941302 -0.17049775485864099</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="myCobot_Pro_600_230708.STEP" uid="myCobot_Pro_600_230708.STEP" version="103">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="myCobot_Pro_600_230708.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="64_____________________PRO-600-W.STEP" uid="64_____________________PRO-600-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="64_____________________PRO-600-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0015437786299740258</Mass>
+<CenterOfMass>0 0.0038999999999999994 0</CenterOfMass>
+<Inertia>7.7392710277858079e-07 1.5322002902492207e-06 7.7392710277857666e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="64_____________________PRO-600-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="70_____________________PRO-600-W.STEP" uid="70_____________________PRO-600-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="70_____________________PRO-600-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0016908051661620258</Mass>
+<CenterOfMass>0 0.0038999999999999924 0</CenterOfMass>
+<Inertia>1.0150241573503884e-06 2.0129035503158961e-06 1.0150241573503905e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="70_____________________PRO-600-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J1____-W.STEP" uid="J1____-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J1____-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.67312015018967752</Mass>
+<CenterOfMass>-0.006865448777316722 0.068195910497751588 -0.00021924440972551413</CenterOfMass>
+<Inertia>0.0020729431012872475 0.001283501103265596 0.0022842613847093413 -4.1622228798862415e-06 -6.4361219479717587e-06 -0.00015500125626728662</Inertia>
+</MassProperties>
+<GeometryFile name="J1____-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J2____-W.STEP" uid="J2____-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J2____-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.23132329713781269</Mass>
+<CenterOfMass>-4.1392239359984564e-07 0.042662524179833163 0.12113111613569444</CenterOfMass>
+<Inertia>0.00035110027848322576 0.0003327309122340151 0.00022765064194922021 5.3637133827977808e-05 -7.2144914389314495e-09 6.7571948493396772e-09</Inertia>
+</MassProperties>
+<GeometryFile name="J2____-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J3____-W.STEP" uid="J3____-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J3____-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.46587550476029127</Mass>
+<CenterOfMass>-0.086745006791925178 0.21745286824810078 -1.3983878835265828e-06</CenterOfMass>
+<Inertia>0.0033960161747514529 0.00029412188449946954 0.0033203478071077951 -1.8331196882503286e-07 -1.6606710930669005e-08 6.7323464395232537e-08</Inertia>
+</MassProperties>
+<GeometryFile name="J3____-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J4____-W.STEP" uid="J4____-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J4____-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.60926402260992452</Mass>
+<CenterOfMass>-0.073350616709405445 0.21874828366509447 -0.00019721492697655251</CenterOfMass>
+<Inertia>0.0044666024094192104 0.00047607498922167544 0.0045333125775835897 1.4291921777946577e-05 5.8114102944861978e-07 -1.4252327797626579e-05</Inertia>
+</MassProperties>
+<GeometryFile name="J4____-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J5____-W.STEP" uid="J5____-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J5____-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14242576324399991</Mass>
+<CenterOfMass>0.00045916996807318075 0.71863566798100909 -0.049471137713826045</CenterOfMass>
+<Inertia>0.00011750979607439402 9.6164795998320707e-05 0.0001053387604457619 1.0859559300455525e-05 1.3858946955637045e-07 -8.186373560148043e-07</Inertia>
+</MassProperties>
+<GeometryFile name="J5____-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="J6____-W.STEP" uid="J6____-W.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="J6____-W.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20911573373601045</Mass>
+<CenterOfMass>0.020502707765585201 -0.0023274442859876621 -0.00010330942219979656</CenterOfMass>
+<Inertia>0.0001479480768273874 0.00030434876897241896 0.00031865182292283294 -7.1746503441326954e-11 1.161487754950038e-07 -6.0857903054933409e-06</Inertia>
+</MassProperties>
+<GeometryFile name="J6____-W.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
